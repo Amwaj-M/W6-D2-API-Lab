@@ -1,0 +1,63 @@
+
+/* desktop */
+#get-data{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;  
+    margin-top: 10px;  
+}
+.card {
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid #7b7b7b;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px rgb(114, 113, 113);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: rgb(70, 70, 70);
+    font-family:'Times New Roman', Times, serif;
+}
+
+.card img {
+    height: 40%;
+    width: 40%;
+    margin: 20px 0px;
+}
+
+.card h2{
+    font-size: 1.5rem;
+}
+.card h3 {
+    font-size: small;
+    color: #5e5e5e;
+}
+.card h4{
+    font-size: 1rem;
+    font-weight: bolder;
+    color: #960724;
+} 
+.card h5 {
+    font-size: medium;
+    color: #f0d10a ;
+}
+
+
+/* * Extra small devices (phones, 600px and down) */ 
+@media only screen and (max-width: 600px) {
+    #get-data{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card {
+        height: 30vh;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+    }
+ }
